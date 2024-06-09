@@ -8,7 +8,7 @@ function Singlepage() {
   const [pcs, setPcs] = useState('')
   const [price, setPrice] = useState('')
   const params = useParams();
-
+ // single data
   const handleSingleData = () => {
     axios.get(`https://server-z329.onrender.com/electronic/${params.id}`).then((response) => {
       setImageURL(response.data[0].ImageURL);

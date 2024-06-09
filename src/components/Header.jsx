@@ -81,6 +81,9 @@ const Header = () => {
             <div className="flex justify-between items-center">
             <Link to={'/dashboard/total'}> <span>Dashbord</span> </Link>
             </div>
+            <div className="flex space-x-2 items-center">
+           <Link to={'/shop'}> <span>Shop</span> </Link> 
+          </div>
             <Link to={'/about'}> <span>About</span> </Link> 
             <div className="flex items-center space-x-2">
               <FaUser  />

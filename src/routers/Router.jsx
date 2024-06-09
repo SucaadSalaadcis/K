@@ -41,7 +41,7 @@ import Cart from "../pages/Cart";
         {
           path: "/electronic/:id",
           element: <SinglePage/>,
-          loader: ({params}) => fetch(`http://localhost:7000/electronic/${params.id}`)
+          loader: ({params}) => fetch(`https://server-z329.onrender.com/electronic/${params.id}`)
       }
       ]
     },
@@ -64,7 +64,7 @@ import Cart from "../pages/Cart";
         {
           path: "/dashboard/edit/:id",
           element: <EditElec/>,
-          loader: ({params}) => fetch(`http://localhost:7000/electronic/${params.id}`)
+          loader: ({params}) => fetch(`https://server-z329.onrender.com/electronic/${params.id}`)
         },
       
       ]
